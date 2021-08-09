@@ -1,0 +1,24 @@
+/* Header */
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+.logo
+{
+
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    float: left;
+    margin-left:2px;
+}
