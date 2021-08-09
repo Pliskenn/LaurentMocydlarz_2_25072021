@@ -1,17 +1,19 @@
+/* Body */
+body
+{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 1024px;
+}
 /* Header */
-header
+.flexheader
 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
-.logo
+menu
 {
-
-}
-nav
-{
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
 }
 ul
 {
@@ -20,5 +22,15 @@ ul
 li
 {
     float: left;
-    margin-left:2px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+li a:hover
+{
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
+}
+li a .inscription
+{
+    color: #0065FC
 }
