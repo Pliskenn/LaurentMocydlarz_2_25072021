@@ -2,12 +2,12 @@
 body
 {
     margin: auto;
-    max-width: 1024px;
+    max-width: 1080px;
 }
 /* Header */
 header
 {
-    margin-top: 40px;
+    margin-top: 37px;
 }
 .flexheader
 {
@@ -27,7 +27,6 @@ ul
 li
 {
     float: left;
-    padding-left: 40px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -35,7 +34,9 @@ li
 .navlink a
 {
     text-decoration: none;   
-    color: black;   
+    color: black;
+    padding-left: 25px;   
+    padding-right: 25px;
 }
 .navlink a:visited
 {
@@ -45,11 +46,18 @@ li
 {
     color: #0065FC;
     border-top: solid 3px #0065FC;
+    padding-top: 50px;
     font-family: 'Raleway', sans-serif;   
 }
 .inscription a
 {
     color: #0065FC;
-    text-decoration: none;   
+    text-decoration: none;  
+    padding-left: 25px;   
+    padding-right: 25px; 
+    font-weight: bold;
+}
+.inscription a:hover   
+{
 
 }
