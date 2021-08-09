@@ -8,26 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Reservia</title>
 </head>
 <body>
+<!--Header et navigation-->    
     <header>
         <div class="flexheader">
-                <a href="index.html">
-                   <img class="logo" src="images/Reservia.svg" alt="Reservia">
-                </a>
-                    <nav>    
-                        <div class="menu">
-                            <div class="navigation">
-                                <ul>
-                                    <li class="navlink"><a href="#host">Hébergements</a></li>
-                                    <li class="navlink"><a href="#activity">Activités</a></li>
-                                    <li class="inscription"><a href="#">S'inscrire</a></li>
-                                </ul>
-                            </div>   
-                        </div>     
-                    </nav>
+            <a href="index.html">
+                <img class="logo" src="images/Reservia.svg" alt="Reservia">
+            </a>
+                <nav>    
+                    <div class="menu">
+                        <div class="navigation">
+                            <ul>
+                                <li class="navlink"><a href="#host">Hébergements</a></li>
+                                <li class="navlink"><a href="#activity">Activités</a></li>
+                                <li class="inscription"><a href="#">S'inscrire</a></li>
+                            </ul>
+                        </div>   
+                    </div>     
+                </nav>
         </div>
     </header>
+<!--Corps du site et aside-->
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+    <div class="search">
+        <i class="fas fa-map-marker-alt"></i>
+        <form method="post" action="#">
+                <input type="text" name="pseudo" id="pseudo" placeholder="Marseille, France" size="30" maxlength="10" />
+                <input type="submit" value="Recherche" />
+        </form>
+    </div>    
 </body>
 </html>

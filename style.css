@@ -57,7 +57,22 @@ li
     padding-right: 25px; 
     font-weight: bold;
 }
-.inscription a:hover   
+/*Main*/
+h1
 {
-
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    max-height: 30px;
+    border:#F2F2F2 1px;
+    border-radius: 10px;
 }
