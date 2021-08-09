@@ -5,14 +5,20 @@ body
     max-width: 1024px;
 }
 /* Header */
+header
+{
+    margin-top: 40px;
+}
 .flexheader
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-nav
+.menu
 {
-    margin-top: 40px
+    display: flex;
+    justify-content: space-between;
 }
 ul
 {
@@ -22,22 +28,28 @@ li
 {
     float: left;
     padding-left: 40px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    text-decoration: none;    
+    text-decoration: none;
 }
-a
+.navlink a
 {
     text-decoration: none;   
+    color: black;   
 }
-li a:hover
+.navlink a:visited
+{
+    color: black;
+}
+.navlink a:hover
 {
     color: #0065FC;
     border-top: solid 3px #0065FC;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;   
+    font-family: 'Raleway', sans-serif;   
 }
-.inscription
+.inscription a
 {
-    color: #0065FC
+    color: #0065FC;
+    text-decoration: none;   
+
 }
