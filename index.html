@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c3840ad690.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 <body>
@@ -35,11 +35,9 @@
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
     <div class="search">
-        <i class="fas fa-map-marker-alt"></i>
-        <form method="post" action="#">
-                <input type="text" name="pseudo" id="pseudo" placeholder="Marseille, France" size="30" maxlength="10" />
-                <input type="submit" value="Recherche" />
-        </form>
+        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+        <div class="champ"><input type="search" id="maRecherche" name="recherche"></div>
+        <div class="button"><button>Rechercher</button></div>
     </div>    
 </body>
 </html>

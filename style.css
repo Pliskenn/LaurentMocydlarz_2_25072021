@@ -71,8 +71,19 @@ p
 {
     display: flex;
     flex-direction: row;
-    max-width: 450px;
-    max-height: 30px;
+    width: 400px;
+    height: 50px;
     border:#F2F2F2 1px;
     border-radius: 10px;
+    background-color: #F2F2F2;
+}
+.icon
+{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+.champ
+{
+    height: 50px;
 }
