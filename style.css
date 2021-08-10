@@ -2,7 +2,8 @@
 body
 {
     margin: auto;
-    max-width: 1080px;
+    max-width: 1400px;
+    font-family: 'Raleway', sans-serif;
 }
 /* Header */
 header
@@ -28,7 +29,6 @@ li
 {
     float: left;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
 .navlink a
@@ -60,30 +60,44 @@ li
 /*Main*/
 h1
 {
-    font-family: 'Raleway', sans-serif;
     font-size: 24px;
-}
-p
-{
-    font-family: 'Raleway', sans-serif;
 }
 .search
 {
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 420px;
     height: 50px;
-    border:#F2F2F2 1px;
-    border-radius: 10px;
-    background-color: #F2F2F2;
+    border:#F2F2F2 2px;
+    border-radius: 15px;
+    background-color:#F2F2F2;
 }
 .icon
 {
-    justify-content: center;
+    line-height: 50px;
+    text-align: center;
     height: 50px;
     width: 50px;
 }
-.champ
+.recherche
 {
+    height: 46px;
+    width: 220px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    color: rgb(160, 17, 17);
+}
+.submit
+{
+    width: 123px;
     height: 50px;
+    border: none;
+    background-color: #0065FC;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
 }
