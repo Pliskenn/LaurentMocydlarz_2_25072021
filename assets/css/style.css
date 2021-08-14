@@ -113,11 +113,41 @@ input.recherche::placeholder {
 .filtres
 {
     display: flex;
-    display: inline-block;
-    vertical-align: middle;
+    padding-top: 30px;
+    height: 30px;
 }
-.ficon
+.filtres h2
 {
-    display: flex;
+    font-size: 16px;
+    vertical-align: middle;
+
+}
+.titre-filtre .fas
+{
+    color: blue;
+    font-size: 15px;
+    background-color: #DEEBFF;
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px 5px;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    border-end-start-radius: 15px;
+    border-start-start-radius: 15px;
+}
+.titre-filtre
+{
+    border: 3px solid #F2F2F2;
+    margin-left: 20px;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    border-end-start-radius: 15px;
+    border-start-start-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-right: 15px;
 
 }
