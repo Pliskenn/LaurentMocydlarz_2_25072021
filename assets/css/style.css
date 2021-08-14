@@ -1,0 +1,123 @@
+/* Body */
+body
+{
+    margin: auto;
+    max-width: 1400px;
+    font-family: 'Raleway', sans-serif;
+}
+/* Header */
+header
+{
+    margin-top: 37px;
+}
+.flexheader
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navlink a
+{
+    text-decoration: none;   
+    color: black;
+    padding-left: 25px;   
+    padding-right: 25px;
+}
+.navlink a:visited
+{
+    color: black;
+}
+.navlink a:hover
+{
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;   
+}
+.inscription a
+{
+    color: #0065FC;
+    text-decoration: none;  
+    padding-left: 25px;   
+    padding-right: 25px; 
+    font-weight: bold;
+}
+/*Main*/
+h1
+{
+    font-size: 24px;
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 50px;
+}
+.search form
+{
+    display: flex;
+}
+.search .fas
+{
+    width: 50px;
+    background-color: #F2F2F2;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 16px 5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.recherche
+{
+    height: 46px;
+    width: 220px;
+    border: 1px solid #F2F2F2;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+}
+input.recherche::placeholder {
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+.submit
+{
+    width: 123px;
+    height: 50px;
+    border: none;
+    background-color: #0065FC;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.filtres
+{
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ficon
+{
+    display: flex;
+
+}
