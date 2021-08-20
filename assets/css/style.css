@@ -1,7 +1,7 @@
 /* Body */
 body
 {
-    max-width: 1200px;
+    max-width: 1400px;
     font-family: 'Raleway', sans-serif;
     margin: auto;
 }
@@ -12,7 +12,7 @@ body
 /* Header */
 header
 {
-    margin-top: 37px;
+    margin-top: 50px;
 }
 .flexheader
 {
@@ -150,5 +150,20 @@ input.recherche::placeholder {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding-right: 15px;
-
 }
+/* + de 500 logements */
+.disponible
+{
+    font-size: 15px;
+    margin-top: 50px;
+} 
+.disponible .fas
+{
+    color:#0065FC;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+/* corps */
