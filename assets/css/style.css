@@ -172,6 +172,11 @@ input.recherche::placeholder {
     display: flex;
     justify-content: space-between;
 }
+.corps a
+{
+    text-decoration: none;
+    color: black;
+}
 .host
 {
     background-color: #F2F2F2;
@@ -202,19 +207,50 @@ figure
     box-sizing: border-box;
     margin-bottom: 20px;
 }
-.host-resume .note
-{
-    margin: 10px 20px;
-}
 .etiquette
 {
     height: 120px;
     object-fit: cover;
     min-width: 250px;
 }
+.note
+{
+    margin: 10px 20px;
+    line-height: 5px;
+}
 .note h3
 {
     font-size: 16px;
+}
+.note p
+{
+    font-size: small;
+}
+.stars
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+.star-positive
+{
+    color: blue;
+}
+.star-negative
+{
+    color: grey;
+}
+.host-link
+{
+    margin-top: 30px;
+}
+.host-link a
+{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 30px;
 }
 /* aside */
 aside
