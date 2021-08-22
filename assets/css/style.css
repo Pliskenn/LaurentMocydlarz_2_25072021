@@ -61,7 +61,7 @@ li
     padding-right: 25px; 
     font-weight: bold;
 }
-/*Main*/
+/* Main */
 h1
 {
     font-size: 24px;
@@ -151,7 +151,7 @@ input.recherche::placeholder {
     font-weight: bold;
     padding-right: 15px;
 }
-/* + de 500 logements */
+/* plus de 500 logements */
 .disponible
 {
     font-size: 15px;
@@ -207,7 +207,7 @@ figure
     box-sizing: border-box;
     margin-bottom: 20px;
 }
-.etiquette
+.host-resume .etiquette
 {
     height: 120px;
     object-fit: cover;
@@ -262,7 +262,37 @@ aside
     width: 30%;   
     float : right;
 }
-aside .fas
+.popular-title
 {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+.most-popular
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.most-popular .etiquette
+{
+    height: 120px;
+    object-fit: cover;
+    max-width: 140px;
+}
+.popular-resume
+{
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    background-color: white;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.most-popular figure
+{
+    margin: 0;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
