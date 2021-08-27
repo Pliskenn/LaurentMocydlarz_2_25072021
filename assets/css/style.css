@@ -48,6 +48,40 @@ h1
 {
     margin-top: 40px;
 }
+/* ANNONCES */
+.annonces
+{
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: red;
+}
+.hebergements
+{
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+figure
+{
+    margin: 0;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+.hebergements img
+{
+    height: 120px;
+    object-fit: cover;
+    min-width: 250px;
+    padding: 6px;
+}
+.bloc-hebergement
+{
+    background-color: white;
+    border-radius: 25px;
+}
 /* FOOTER */
 footer
 {
