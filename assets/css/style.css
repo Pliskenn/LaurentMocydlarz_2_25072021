@@ -1,13 +1,14 @@
 /* Body */
 body
 {
-    max-width: 1400px;
     font-family: 'Raleway', sans-serif;
     margin: auto;
 }
 .content
 {
     margin: auto;
+    max-width: 1400px;
+
 }
 /* Header */
 header
@@ -119,12 +120,15 @@ input.recherche::placeholder {
     display: flex;
     padding-top: 10px;
     height: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .filtres h2
 {
     font-size: 16px;
     vertical-align: middle;
     margin-top: 30px;
+    margin-right: -30px;
 
 }
 .titre-filtre .fas
@@ -266,6 +270,14 @@ aside
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 6px;
+    margin-bottom: -20px;
+}
+.popular-title .fas
+{
+    font-size: 20px;
+    margin-top: 26px;
 }
 .most-popular
 {
@@ -289,10 +301,111 @@ aside
     box-sizing: border-box;
     margin-bottom: 20px;
 }
+.popular-resume .stars
+{
+    vertical-align: bottom;
+}
 .most-popular figure
 {
     margin: 0;
     overflow: hidden;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+/* Activités */
+.activity
+{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 80px) ;
+    column-gap: 20px;
+}
+.activity-resume
+{
+    height: 100%;
+    width: 100%;
+}
+.activity .etiquette
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.activity figure
+{
+    width: auto;
+    height: 100%;
+}
+.activity a
+{
+    text-decoration: none;
+    vertical-align: middle;
+}
+.activity h3
+{
+    vertical-align: middle;
+}
+.activity .note
+{
+    max-height: 50px;
+    vertical-align: middle;
+}
+.act-1
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.act-2
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.act-3
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.act-4
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.act-5
+{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.act-6
+{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+/* FOOTER */
+footer
+{
+    background-color: #F2F2F2;
+}
+.menu-footer
+{
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu-footer h3
+{
+    padding-left: 20px;
 }
