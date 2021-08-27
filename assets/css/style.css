@@ -393,19 +393,37 @@ aside
     grid-row-start: 4;
     grid-row-end: 6;
 }
-/* FOOTER */
 footer
 {
     background-color: #F2F2F2;
 }
-.menu-footer
+.contenu-footer
 {
-    max-width: 1400px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.menu-footer h3
-{
     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    max-width: 1280px;
+    font-family: 'Raleway';
+    display: flex;
+}
+.contenu-footer ul
+{
+    list-style: none;
+    text-align: left;
+}
+.contenu-footer a
+{
+    text-decoration: none;
+    line-height: 200%;
+    color: black;
+    font-family: 'Raleway';
+}
+.colonne-footer
+{
+    width: 34%
+}
+.colonne-footer h4
+{
+    font-size: 16px;
 }
