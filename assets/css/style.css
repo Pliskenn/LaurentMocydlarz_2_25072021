@@ -182,9 +182,9 @@ input.ChampsRecherche::placeholder {
 {
     color: #0065FC;
     border: solid 1px #F2F2F2;
-    border-radius: 15px;
-    padding: 7px 5px;
-    font-size: 10px;
+    border-radius: 100%;
+    padding: 7px 12px;
+    font-size: 13px;
     margin-right: 10px;
 }
 .LogementTexte
@@ -205,13 +205,20 @@ input.ChampsRecherche::placeholder {
     border-radius: 25px;
     margin-right: 30px;
 }
+.AfficherPlus
+{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
 .GrilleHebergement
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     column-gap: 20px;
-    padding: 20px 40px;
+    padding: 20px 20px 10px 20px;
 }
 .BlocHebergement img
 {
@@ -223,7 +230,6 @@ input.ChampsRecherche::placeholder {
 {
     height: 120px;
     padding: 6px;
-    overflow: auto;
     object-fit:cover;
 }
 .CarteHebergement
@@ -265,8 +271,11 @@ input.ChampsRecherche::placeholder {
 }
 .BlocPopulaire img
 {
-    height: 100%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
     border-radius: 20px 0px 0px 20px;
+    display: block;
 }
 .BlocPopulaire a
 {
@@ -280,8 +289,7 @@ input.ChampsRecherche::placeholder {
 }
 .ContenantPopulaireImage
 {
-    height: 120px;
-    width: 29%;
+
     padding: 6px;
     overflow: auto;
     
@@ -311,7 +319,8 @@ input.ChampsRecherche::placeholder {
 .BlocActivite img
 {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 .BlocActivite h4
@@ -334,7 +343,6 @@ input.ChampsRecherche::placeholder {
 .ContenantActiviteImage
 {
     padding: 6px;
-    overflow: auto;
     object-fit:cover;
 }
 .CarteActivite
