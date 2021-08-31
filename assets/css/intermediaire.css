@@ -6,7 +6,7 @@ body
 {
     margin: auto;
     padding: 0px 20px;
-    max-width: 1440px;
+    max-width: 1360px;
     font-family: 'Raleway';
 }
 /* CONTENU GLOBAL */
@@ -195,12 +195,13 @@ input.ChampsRecherche::placeholder {
 .BlocsContenu
 {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
 }
 /* HEBERGEMENT */
 .BlocHebergement
 {
-    width: 65%;
+    width: 100%;
     background-color: #F2F2F2;
     border-radius: 25px;
     margin-right: 30px;
@@ -257,7 +258,7 @@ input.ChampsRecherche::placeholder {
 /* POPULAIRE */
 .BlocPopulaire
 {
-    width: 32%;
+    width: 100%;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
@@ -286,20 +287,19 @@ input.ChampsRecherche::placeholder {
 {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 20px;
     padding: 20px 40px;
 }
 .ContenantPopulaireImage
 {
-
     padding: 6px;
-    overflow: auto;
-    
+    object-fit: cover;
 }
 .CartePopulaire
 {
     background-color: white;
     border-radius: 25px;
-    width: 100%;
+    width: 31%;
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 20px;
 }
@@ -315,7 +315,7 @@ input.ChampsRecherche::placeholder {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 30px;
+    column-gap: 20px;
 }
 .BlocActivite img
 {
@@ -332,8 +332,8 @@ input.ChampsRecherche::placeholder {
 {
     display: flex;
     flex-direction:row;
-    column-gap: 30px;
-    width: 48%;
+    column-gap: 20px;
+    width: 100%;
 }
 .ActiviteColonne
 {
@@ -343,6 +343,7 @@ input.ChampsRecherche::placeholder {
 }
 .ContenantActiviteImage
 {
+    padding: 6px;
     object-fit:cover;
 }
 .CarteActivite
@@ -361,27 +362,7 @@ input.ChampsRecherche::placeholder {
 {
     margin: 0;
 }
-.ContenantActiviteImage.Activite1
-{
-    height: 450px;
-}
-.ContenantActiviteImage.Activite2
-{
-    height: 250px;
-}
-.ContenantActiviteImage.Activite3
-{
-    height: 120px;
-}
-.ContenantActiviteImage.Activite4
-{
-    height: 464px;
-}
-.ContenantActiviteImage.Activite5
-{
-    height: 190px;
-}
-.ContenantActiviteImage.Activite6
+.ContenantActiviteImage
 {
     height: 190px;
 }
