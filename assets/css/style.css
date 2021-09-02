@@ -28,10 +28,6 @@ li
 {
     margin: 0;
 }
-.etoile
-{
-    font-size: 12px;
-}
 .etoile-positif
 {
     color: #0065FC;
@@ -84,11 +80,12 @@ h1
 h2
 {
     font-size: 22px;
-    margin: 30px 40px 0px 40px;
+    margin: 40px 40px 0px 40px;
 }
 .titre p
 {
     margin-top: 0;
+    margin-bottom: 20px;
     font-size: 15px;
 }
 /* RECHERCHE */
@@ -137,7 +134,7 @@ input.champs-recherche::placeholder {
     border-end-end-radius: 15px;
     border-start-end-radius: 15px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 /* FILTRE */
@@ -145,6 +142,7 @@ input.champs-recherche::placeholder {
 {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: 30px;
 }
 .filtre h3
@@ -158,8 +156,9 @@ input.champs-recherche::placeholder {
     border: 2px solid #d9d9d9;
     border-width: 2px 2px 2px 0px;
     border-radius: 30px;
-    height: 50px;
+    height: 44px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 .carte-filtre a
 {
@@ -167,8 +166,8 @@ input.champs-recherche::placeholder {
 }
 .icone-filtre
 {
-    height: 54px;
-    width: 54px;
+    height: 48px;
+    width: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,6 +275,10 @@ input.champs-recherche::placeholder {
     padding-top: 4px;
     padding-bottom: 8px;
 }
+.etoile-hebergement
+{
+    font-size: 12px;
+}
 /* POPULAIRE */
 .bloc-populaire
 {
@@ -312,10 +315,7 @@ input.champs-recherche::placeholder {
 }
 .contenant-populaire-image
 {
-
-    padding: 6px;
-    overflow: auto;
-    
+    padding: 5px;
 }
 .carte-populaire
 {
@@ -329,7 +329,19 @@ input.champs-recherche::placeholder {
 {
     width: 69%;
     margin: 6px 0px;
-    padding-left: 10px;
+    padding: 15px 30px 0px 15px;
+    position:relative;
+}
+.resume-populaire p
+{
+    font-size: 14px;
+}
+.etoile-populaire
+{
+    font-size: 12px;
+    position:absolute;
+    bottom:0;
+    padding-bottom: 10px;
 }
 /* ACTIVITES */
 .grille-activite
@@ -349,7 +361,7 @@ input.champs-recherche::placeholder {
 .bloc-activite h2
 {
     margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .bloc-activite h4
 {
