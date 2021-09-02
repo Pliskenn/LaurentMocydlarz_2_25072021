@@ -132,7 +132,7 @@ input.ChampsRecherche::placeholder {
 {
     margin-right: 20px;
 }
-.CarteFiltre
+.carte-filtre
 {
     display: flex;
     align-items: center;
@@ -142,11 +142,11 @@ input.ChampsRecherche::placeholder {
     height: 50px;
     margin-right: 20px;
 }
-.CarteFiltre a
+.carte-filtre a
 {
     display: block;
 }
-.IconeFiltre
+.icone-filtre
 {
     height: 54px;
     width: 54px;
@@ -156,11 +156,11 @@ input.ChampsRecherche::placeholder {
     background-color: #DEEBFF;
     border-radius: 100%;
 }
-.IconeFiltre .fas
+.icone-filtre .fas
 {
     color:#0065FC;
 }
-.TexteFiltre
+.texte-filtre
 {
     padding-left: 18px;
     padding-right: 28px;
@@ -228,13 +228,13 @@ input.ChampsRecherche::placeholder {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.ContenantImage
+.contenant-hebergement-image
 {
     height: 120px;
     padding: 6px;
     object-fit:cover;
 }
-.CarteHebergement
+.carte-hebergement
 {
     background-color: white;
     border-radius: 25px;
@@ -242,16 +242,16 @@ input.ChampsRecherche::placeholder {
     flex: 1 1 240px;
     box-shadow: 0 0 16px #0000002e;
 }
-.ResumeHebergement
+.resume-hebergement
 {
     margin: 6px;
     padding-left: 10px;
 }
-.ResumeHebergement h4
+.resume-hebergement h4
 {
     margin: 0;
 }
-.ResumeHebergement p
+.resume-hebergement p
 {
     margin: 0;
 }
@@ -290,12 +290,12 @@ input.ChampsRecherche::placeholder {
     column-gap: 20px;
     padding: 20px 40px;
 }
-.ContenantPopulaireImage
+.contenant-populaire-image
 {
     padding: 6px;
     object-fit: cover;
 }
-.CartePopulaire
+.carte-populaire
 {
     background-color: white;
     border-radius: 25px;
@@ -303,7 +303,7 @@ input.ChampsRecherche::placeholder {
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 20px;
 }
-.ResumePopulaire
+.resume-populaire
 {
     width: 69%;
     margin: 6px 0px;
@@ -328,41 +328,41 @@ input.ChampsRecherche::placeholder {
 {
     padding: 10px 10px;
 }
-.ActiviteBloc
+.activite-demi-bloc
 {
     display: flex;
     flex-direction:row;
     column-gap: 20px;
     width: 100%;
 }
-.ActiviteColonne
+.activite-colonne
 {
     display: flex;
     flex-direction: column;
     width: 49%;
 }
-.ContenantActiviteImage
+.contenant-activite-image
 {
     padding: 6px;
     object-fit:cover;
 }
-.CarteActivite
+.carte-activite
 {
     background-color: white;
     border-radius: 25px;
     margin-bottom: 30px;
     box-shadow: 0 0 16px #0000002e;
 }
-.ResumeActivite
+.resume-activite
 {
     margin: 6px;
     padding-left: 10px;
 }
-.ResumeActivite h4
+.resume-activite h4
 {
     margin: 0;
 }
-.ContenantActiviteImage
+.contenant-activite-image
 {
     height: 190px;
 }
@@ -378,7 +378,7 @@ footer
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.ColonneFooter
+.colonne-footer
 {
     width: 30%;
 }

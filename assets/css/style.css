@@ -97,7 +97,7 @@ h2
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
-.ChampsRecherche
+.champs-recherche
 {
     height: 46px;
     width: 220px;
@@ -106,7 +106,7 @@ h2
     padding-left: 20px;
     font-size: 18px;
 }
-input.ChampsRecherche::placeholder {
+input.champs-recherche::placeholder {
     color:black;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -124,17 +124,17 @@ input.ChampsRecherche::placeholder {
     text-align: center;
 }
 /* FILTRE */
-.Filtre
+.filtre
 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
 }
-.Filtre h3
+.filtre h3
 {
     margin-right: 30px;
 }
-.CarteFiltre
+.carte-filtre
 {
     display: flex;
     align-items: center;
@@ -144,11 +144,11 @@ input.ChampsRecherche::placeholder {
     height: 50px;
     margin-right: 20px;
 }
-.CarteFiltre a
+.carte-filtre a
 {
     display: block;
 }
-.IconeFiltre
+.icone-filtre
 {
     height: 54px;
     width: 54px;
@@ -158,11 +158,11 @@ input.ChampsRecherche::placeholder {
     background-color: #DEEBFF;
     border-radius: 100%;
 }
-.IconeFiltre .fas
+.icone-filtre .fas
 {
     color:#0065FC;
 }
-.TexteFiltre
+.texte-filtre
 {
     padding-left: 15px;
     padding-right: 25px;
@@ -170,16 +170,16 @@ input.ChampsRecherche::placeholder {
     font-size: 18px;
 }
 /* PLUS DE 500 LOGEMENTS */
-.Logement
+.logement
 {
     display: flex;
     margin: 20px 0px;
 }
-.LogementIcone
+.logement-icone
 {
     margin-top: 12px;
 }
-.Logement i
+.logement i
 {
     color: #0065FC;
     border: solid 1px #d9d9d9;
@@ -188,32 +188,32 @@ input.ChampsRecherche::placeholder {
     font-size: 13px;
     margin-right: 10px;
 }
-.LogementTexte
+.logement-texte
 {
     padding: 0;
 }
 /* CONTENU */
-.BlocsContenu
+.blocs-contenu
 {
     display: flex;
     justify-content: space-between;
 }
 /* HEBERGEMENT */
-.BlocHebergement
+.bloc-hebergement
 {
     width: 65%;
     background-color: #F2F2F2;
     border-radius: 25px;
     margin-right: 30px;
 }
-.AfficherPlus
+.afficher-plus
 {
     padding-bottom: 40px;
     padding-left: 40px;
     font-weight: bold;
     font-size: 18px;
 }
-.GrilleHebergement
+.grille-hebergement
 {
     display: flex;
     flex-wrap: wrap;
@@ -221,20 +221,20 @@ input.ChampsRecherche::placeholder {
     column-gap: 20px;
     padding: 20px 20px 10px 20px;
 }
-.BlocHebergement img
+.bloc-hebergement img
 {
     width: 100%;
     height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.ContenantImage
+.contenant-hebergement-image
 {
     height: 120px;
     padding: 6px;
     object-fit:cover;
 }
-.CarteHebergement
+.carte-hebergement
 {
     background-color: white;
     border-radius: 25px;
@@ -242,36 +242,36 @@ input.ChampsRecherche::placeholder {
     flex: 1 1 240px;
     box-shadow: 0 0 16px #0000002e;
 }
-.ResumeHebergement
+.resume-hebergement
 {
     margin: 6px;
     padding-left: 10px;
 }
-.ResumeHebergement h4
+.resume-hebergement h4
 {
     margin: 0;
 }
-.ResumeHebergement p
+.resume-hebergement p
 {
     margin: 0;
 }
 /* POPULAIRE */
-.BlocPopulaire
+.bloc-populaire
 {
     width: 32%;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
-.BlocPopulaire h2
+.bloc-populaire h2
 {
     display: flex;
     justify-content: space-between;
 }
-.BlocPopulaire h4
+.bloc-populaire h4
 {
     margin: 0;
 }
-.BlocPopulaire img
+.bloc-populaire img
 {
     width: 140px;
     height: 140px;
@@ -279,24 +279,24 @@ input.ChampsRecherche::placeholder {
     border-radius: 20px 0px 0px 20px;
     display: block;
 }
-.BlocPopulaire a
+.bloc-populaire a
 {
     display: flex;
 }
-.GrillePopulaire
+.grille-populaire
 {
     display: flex;
     flex-wrap: wrap;
     padding: 20px 40px;
 }
-.ContenantPopulaireImage
+.contenant-populaire-image
 {
 
     padding: 6px;
     overflow: auto;
     
 }
-.CartePopulaire
+.carte-populaire
 {
     background-color: white;
     border-radius: 25px;
@@ -304,85 +304,85 @@ input.ChampsRecherche::placeholder {
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 20px;
 }
-.ResumePopulaire
+.resume-populaire
 {
     width: 69%;
     margin: 6px 0px;
     padding-left: 10px;
 }
 /* ACTIVITES */
-.GrilleActivite
+.grille-activite
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 30px;
 }
-.BlocActivite img
+.bloc-activite img
 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.BlocActivite h4
+.bloc-activite h4
 {
     padding: 10px 10px;
 }
-.ActiviteBloc
+.activite-demi-bloc
 {
     display: flex;
     flex-direction:row;
     column-gap: 30px;
     width: 48%;
 }
-.ActiviteColonne
+.activite-colonne
 {
     display: flex;
     flex-direction: column;
     width: 49%;
 }
-.ContenantActiviteImage
+.contenant-activite-image
 {
     object-fit:cover;
 }
-.CarteActivite
+.carte-activite
 {
     background-color: white;
     border-radius: 25px;
     margin-bottom: 30px;
     box-shadow: 0 0 16px #0000002e;
 }
-.ResumeActivite
+.resume-activite
 {
     margin: 6px;
     padding-left: 10px;
 }
-.ResumeActivite h4
+.resume-activite h4
 {
     margin: 0;
 }
-.ContenantActiviteImage.Activite1
+.contenant-activite-image.Activite1
 {
     height: 450px;
 }
-.ContenantActiviteImage.Activite2
+.contenant-activite-image.Activite2
 {
     height: 250px;
 }
-.ContenantActiviteImage.Activite3
+.contenant-activite-image.Activite3
 {
     height: 120px;
 }
-.ContenantActiviteImage.Activite4
+.contenant-activite-image.Activite4
 {
     height: 464px;
 }
-.ContenantActiviteImage.Activite5
+.contenant-activite-image.Activite5
 {
     height: 190px;
 }
-.ContenantActiviteImage.Activite6
+.contenant-activite-image.Activite6
 {
     height: 190px;
 }
@@ -392,13 +392,13 @@ footer
     background-color: #F2F2F2;
     margin: 0;
 }
-.BlocFooter
+.bloc-footer
 {
     display: flex;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.ColonneFooter
+.colonne-footer
 {
     width: 30%;
 }
