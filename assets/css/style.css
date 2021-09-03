@@ -53,11 +53,6 @@ li
     margin: 0;
     padding: 0;
 }
-.menu-navigation
-{
-    display: flex;
-    flex-direction: row;
-}
 .navlien a, .inscription a
 {
     text-decoration: none;

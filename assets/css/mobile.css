@@ -46,22 +46,12 @@ li
 {
     padding-top: 45px;
 }
-.navigation
-{
-    display: flex;
-    flex-direction: column-reverse;
-}
 .navigation ul
 {
     display: flex;
     flex-direction: row;
     margin: 0;
     padding: 0;
-}
-.menu-navigation
-{
-    display: flex;
-    flex-direction: row;
 }
 .navlien a, .inscription a
 {
@@ -448,10 +438,11 @@ footer
 .bloc-footer
 {
     display: flex;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 .colonne-footer
 {
-    width: 30%;
+    width: 100%;
 }
