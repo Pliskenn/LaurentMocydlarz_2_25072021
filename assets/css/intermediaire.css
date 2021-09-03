@@ -71,6 +71,10 @@ li
     color:#0065FC;
     font-weight: bold;
 }
+.non-md
+{
+    display: none;
+}
 /* TITRE */
 h1
 {
@@ -312,6 +316,7 @@ input.champs-recherche::placeholder {
 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px 40px;
     column-gap: 30px;
 }
@@ -323,7 +328,6 @@ input.champs-recherche::placeholder {
 {
     background-color: white;
     border-radius: 20px;
-    flex: 1 1 310px;
     box-shadow: 0 0 16px #0000002e;
     margin-bottom: 20px;
 }

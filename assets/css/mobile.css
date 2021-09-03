@@ -53,6 +53,11 @@ li
     margin: 0;
     padding: 0;
 }
+.navigation ul li {
+    flex: 1;
+    border-bottom: 3px solid #F2F2F2;
+    text-align: center;
+}
 .navlien a, .inscription a
 {
     text-decoration: none;
@@ -70,6 +75,10 @@ li
 {
     color:#0065FC;
     font-weight: bold;
+}
+.non-xs
+{
+    display: none;
 }
 /* TITRE */
 h1
@@ -313,6 +322,7 @@ input.champs-recherche::placeholder {
 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px 40px;
     column-gap: 30px;
 }

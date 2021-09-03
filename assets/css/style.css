@@ -71,6 +71,10 @@ li
     color:#0065FC;
     font-weight: bold;
 }
+.non-md
+{
+    display: none;
+}
 /* TITRE */
 h1
 {
