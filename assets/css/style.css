@@ -71,10 +71,6 @@ li
     color:#0065FC;
     font-weight: bold;
 }
-.non-md
-{
-    display: none;
-}
 /* TITRE */
 h1
 {
@@ -129,17 +125,26 @@ input.champs-recherche::placeholder {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
   }
-.submit
+
+.soumettre
 {
-    width: 123px;
+    border: none;
     height: 50px;
+    padding: 0 10px;
     border: none;
     background-color: #0065FC;
-    border-end-end-radius: 15px;
-    border-start-end-radius: 15px;
+    border-radius: 0px 15px 15px 0px;
     color: white;
     font-size: 18px;
     text-align: center;
+}
+.soumettre .fas
+{
+    display: none;
+    background-color: #0065FC;
+    font-size: 18px;
+    padding: 0;
+    border-radius: 15px;
 }
 /* FILTRE */
 .filtre
@@ -259,7 +264,7 @@ input.champs-recherche::placeholder {
     background-color: white;
     border-radius: 20px;
     margin-bottom: 30px;
-    flex: 1 1 200px;
+    flex: 1 1 250px;
     box-shadow: 0 0 16px #0000002e;
 }
 .resume-hebergement
@@ -301,7 +306,7 @@ input.champs-recherche::placeholder {
 }
 .bloc-populaire img
 {
-    width: 140px;
+    width: 100%;
     height: 140px;
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
@@ -320,6 +325,8 @@ input.champs-recherche::placeholder {
 .contenant-populaire-image
 {
     padding: 5px;
+    width: 50%;
+    max-width: 400px
 }
 .carte-populaire
 {
@@ -350,50 +357,47 @@ input.champs-recherche::placeholder {
 /* ACTIVITES */
 .grille-activite
 {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 30px;
+    column-gap: 40px;
+}
+.colonne-activite
+{
+    width: 24%;
+}
+.bloc-activite
+{
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 .bloc-activite img
 {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 .bloc-activite h2
 {
     margin-left: 0;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 .bloc-activite h4
 {
     padding: 10px 10px;
 }
-.activite-demi-bloc
-{
-    display: flex;
-    flex-direction:row;
-    column-gap: 30px;
-    flex: 1 1 500px;
-}
-.activite-colonne
-{
-    display: flex;
-    flex-direction: column;
-    width: 49%;
-}
 .contenant-activite-image
 {
-    object-fit:cover;
+    display: flex;
 }
 .carte-activite
 {
     background-color: white;
     border-radius: 20px;
-    margin-bottom: 30px;
     box-shadow: 0 0 16px #0000002e;
+}
+.carte-activite-margin-top
+{
+    margin-top: 38px;
 }
 .resume-activite
 {
@@ -404,35 +408,39 @@ input.champs-recherche::placeholder {
 {
     margin: 0;
 }
-.contenant-activite-image.Activite1
+.Activite1
 {
-    height: 450px;
+    height: 383px;
 }
-.contenant-activite-image.Activite2
+.Activite2
 {
-    height: 250px;
+    height: 180px;
 }
-.contenant-activite-image.Activite3
+.Activite3
 {
     height: 120px;
 }
-.contenant-activite-image.Activite4
+.Activite4
 {
-    height: 464px;
+    height: 383px;
 }
-.contenant-activite-image.Activite5
+.Activite5
 {
-    height: 190px;
+    height: 150px;
 }
-.contenant-activite-image.Activite6
+.Activite6
 {
-    height: 190px;
+    height: 150px;
 }
 /* FOOTER */
 footer
 {
     background-color: #F2F2F2;
     margin: 0;
+}
+footer li
+{
+    padding-bottom: 8px;
 }
 .bloc-footer
 {
