@@ -14,3 +14,10 @@
     display: flex;
     flex-direction: row;
 }
+.contenant-activite-image
+{
+    height: 180px;
+}
+.colonne-activite
+{
+}

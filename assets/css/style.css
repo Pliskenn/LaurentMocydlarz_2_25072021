@@ -86,7 +86,7 @@ h2
 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 16px;
 }
 /* RECHERCHE */
 .recherche
@@ -130,7 +130,7 @@ input.champs-recherche::placeholder {
 {
     border: none;
     height: 50px;
-    padding: 0 10px;
+    padding: 0 15px;
     border: none;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
@@ -152,7 +152,7 @@ input.champs-recherche::placeholder {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .filtre h3
 {
@@ -167,7 +167,7 @@ input.champs-recherche::placeholder {
     border-radius: 30px;
     height: 44px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .carte-filtre a
 {

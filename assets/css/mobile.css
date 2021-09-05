@@ -1,9 +1,26 @@
+.champs-recherche
+{
+    width: 180px;
+}
+.soumettre
+{
+    padding: 0;
+    border-radius: 15px;
+}
 .soumettre-texte
 {
     display: none;
-    border-radius: 15px;
+
 }
 .soumettre .fas
 {
     display: block;
+}
+.bloc-footer
+{
+    flex-direction: column;
+}
+.colonne-footer
+{
+    width: 100%;
 }
