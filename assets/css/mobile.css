@@ -1,19 +1,28 @@
+.contenu    
+{
+    padding: 0;
+}
+/* HEADER */
 .en-tete
 {
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 100px 42px;
 }
 .grid-logo
 {
     grid-column: 1;
+    grid-row: 1;
 }
 .logo 
 {
     padding-top: 30px;
+    padding-left: 20px;
 }
 .grid-navigation
 {
-    grid-column: 1;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    border-bottom: 3px solid #F2F2F2;
 }
 .grid-inscription
 {
@@ -21,9 +30,49 @@
     grid-row: 1;
     text-align: right;
 }
+.navlien a:hover, .navlien.active a
+{
+    color: #0065FC;
+    border-bottom: solid 3px #0065FC;
+    border-top: none;
+}
+.navlien
+{
+    width: 50%;
+    text-align: center;
+    display: grid;
+}
+.inscription a
+{
+    border-top: none;
+    padding-left: 20px;
+}
+.navlien a
+{
+    padding: 10px 35px;
+    border-top: none;
+}
+.navigation ul 
+{
+    justify-content: space-between;
+}
+/* TITRE */
+.titre
+{
+    padding: 20px;
+}
+/* RECHERCHE */
+.recherche 
+{
+    width: 100%;
+}
 .champs-recherche
 {
-    width: 180px;
+    width: 67%;
+}
+form
+{
+   width: 100%;
 }
 .soumettre
 {
@@ -47,6 +96,7 @@
 .bloc-footer
 {
     flex-direction: column;
+    padding-left: 20px;
 }
 .colonne-footer
 {
