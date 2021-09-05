@@ -18,6 +18,26 @@
 {
     height: 180px;
 }
+.grille-activite
+{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.double-colonne-activite
+{
+    flex-direction: column;
+    width: 48%;
+}
 .colonne-activite
 {
+    width: 100%;
+}
+.carte-activite
+{
+    margin-bottom: 20px;
+}
+.carte-activite-margin-top
+{
+    margin-top: 0px;
 }

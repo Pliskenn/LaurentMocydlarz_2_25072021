@@ -1,20 +1,48 @@
+.en-tete
+{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px;
+}
+.grid-logo
+{
+    grid-column: 1;
+}
+.logo 
+{
+    padding-top: 30px;
+}
+.grid-navigation
+{
+    grid-column: 1;
+}
+.grid-inscription
+{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+}
 .champs-recherche
 {
     width: 180px;
 }
 .soumettre
 {
+    margin: 0;
     padding: 0;
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
 }
 .soumettre-texte
 {
     display: none;
-
 }
 .soumettre .fas
 {
     display: block;
+}
+.double-colonne-activite
+{
+    flex-direction: column;
+    width: 100%;
 }
 .bloc-footer
 {

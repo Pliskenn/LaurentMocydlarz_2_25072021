@@ -39,12 +39,28 @@ li
 /* EN-TETE */
 .en-tete
 {
-    display: flex;
-    justify-content: space-between;
+    display: grid; 
+    grid-template-columns: 1fr auto 310px 110px;
+    grid-template-rows: 100px;
+    gap: 0px 0px; 
 }
+/* MENU */
 .logo 
 {
     padding-top: 45px;
+
+}
+.grid-logo
+{
+    grid-column: 1;
+}
+.grid-navigation
+{
+    grid-column: 3;
+}
+.grid-inscription
+{
+    grid-column: 4;
 }
 .navigation ul
 {
@@ -70,6 +86,7 @@ li
 {
     color:#0065FC;
     font-weight: bold;
+    padding: 31px 32px;
 }
 /* TITRE */
 h1
@@ -131,7 +148,6 @@ input.champs-recherche::placeholder {
     border: none;
     height: 50px;
     padding: 0 15px;
-    border: none;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     color: white;
@@ -363,7 +379,12 @@ input.champs-recherche::placeholder {
 }
 .colonne-activite
 {
-    width: 24%;
+    width: 49%;
+}
+.double-colonne-activite
+{
+    display: flex;
+    column-gap: 40px;
 }
 .bloc-activite
 {

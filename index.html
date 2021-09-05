@@ -21,18 +21,27 @@
         <!-- EN-TETE -->
         <header>
             <div class="en-tete">
-                <a href="index.html">
-                    <img class="logo" src="assets/images/logo/Reservia.svg" alt="Reservia">
-                </a>
-                <nav>
-                    <div class="navigation">
-                        <ul>
-                            <li class="navlien active"><a href="#host">Hébergements</a></li>
-                            <li class="navlien"><a href="#activity">Activités</a></li>
-                            <li class="inscription"><a href="#">S'inscrire</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                <div class="grid-logo">
+                    <a href="index.html">
+                        <img class="logo" src="assets/images/logo/Reservia.svg" alt="Reservia">
+                    </a>
+                </div>
+                <div class="grid-navigation">
+                    <nav>
+                        <div class="navigation">
+                            <ul>
+                                <li class="navlien active"><a href="#host">Hébergements</a></li>
+                                <li class="navlien"><a href="#activity">Activités</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="grid-inscription">
+                    <ul>
+                        <li class="inscription"><a href="#">S'inscrire</a></li>
+                    </ul>
+                </div>
+
             </div>
             <!-- TITRE -->
             <div class="titre">
@@ -48,7 +57,7 @@
                     <input type="text" name="text" class="champs-recherche" placeholder="Marseille, France">
                     <button type="submit" class="soumettre">
                         <span class="soumettre-texte">Rechercher</span>
-                        <i class="soumettre-icone fas fa-search"></i>
+                        <span class="soumettre-icone"><i class="fas fa-search"></i></span>
                     </button>
                 </form>
             </div>
@@ -286,7 +295,8 @@
             <section class="bloc-activite">
                 <h2>Activités à Marseille</h2>
                 <div class="grille-activite">
-                    <div class="colonne-activite">
+                    <div class="double-colonne-activite">
+                        <div class="colonne-activite">
                             <div class="carte-activite">
                                 <a href="#">
                                     <div class="contenant-activite-image Activite1">
@@ -323,6 +333,8 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div class="double-colonne-activite">
                         <div class="colonne-activite">
                             <div class="carte-activite">
                                 <a href="#">
@@ -360,6 +372,7 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
                 </div>
             </section>
         </main>
