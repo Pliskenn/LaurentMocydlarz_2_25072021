@@ -65,10 +65,11 @@
 .recherche 
 {
     width: 100%;
+    padding: 0 15px;
 }
 .champs-recherche
 {
-    width: 67%;
+    width: 58%;
 }
 form
 {
@@ -88,11 +89,58 @@ form
 {
     display: block;
 }
+/* FILTRE */
+.filtre
+{
+    padding: 0 15px;
+}
+/* PLUS DE 500 LOGEMENTS */
+.logement
+{
+    padding: 0 15px;
+}
+/* HEBERGEMENT */
+.bloc-hebergement
+{
+    background-color: white;
+}
+.bloc-hebergement h2
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.grille-hebergement
+{
+    padding: 20px;
+}
+.afficher-plus 
+{
+    padding: 10px 20px;
+}
+/* POPULAIRE */
+.bloc-populaire
+{
+    border-radius: 0;
+}
+.grille-populaire
+{
+    padding: 20px;
+}
+/* ACTIVITE */
+.bloc-activite
+{
+    margin: 0 20px 20px 20px;
+}
+.contenant-activite-image 
+{
+    height: 140px;
+}
 .double-colonne-activite
 {
     flex-direction: column;
     width: 100%;
 }
+/* FOOTER */
 .bloc-footer
 {
     flex-direction: column;
