@@ -189,6 +189,10 @@ input.champs-recherche::placeholder {
 {
     display: block;
 }
+.carte-filtre:hover
+{
+    color: #0065FC;
+}
 .icone-filtre
 {
     height: 48px;
@@ -472,4 +476,5 @@ footer li
 .colonne-footer
 {
     width: 30%;
+    padding-right: 10px;
 }
