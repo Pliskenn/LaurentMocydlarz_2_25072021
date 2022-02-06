@@ -64,8 +64,9 @@
 /* RECHERCHE */
 .recherche 
 {
-    width: 95%;
+    width: 100%;
     padding: 0 15px;
+    margin: 0;
 }
 .champs-recherche
 {
